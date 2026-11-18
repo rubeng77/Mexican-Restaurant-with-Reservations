@@ -1,0 +1,71 @@
+body {
+    font-family: Georgia, serif;
+    background-color: ivory;
+    color: darkorange;
+
+    text-align: center;
+}
+ul{list-style-type: none;
+}
+h1 {
+    color: black;
+}
+
+
+h2, h3 {
+    color: firebrick;
+}
+
+
+h4 {
+    color: black;
+    
+}
+
+
+nav a {
+    color: firebrick;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+header {
+    background: linear-gradient(to right, darkorange, firebrick);
+    color: white;
+    padding: 20px;
+    
+    border-bottom: 6px solid darkgreen;
+}
+
+
+header h1,
+header nav a {
+    color: white;
+}
+
+footer{
+    background: linear-gradient(to right, darkorange, firebrick);
+    color: white;
+    padding: 25px;
+    
+    border-top: 6px solid darkgreen;
+    margin-top: auto;
+}
+
+footer a {
+    color: white;
+}
+
+/* the reservation form */
+fieldset{
+    width: 60%;
+    margin: 0 auto;
+    border: 2px solid darkgreen;
+    border-radius: 10px;
+}
+
+label {
+    display:block;
+    font-weight: bold;
+}
